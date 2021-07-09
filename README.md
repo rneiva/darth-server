@@ -40,6 +40,7 @@ List of packages that exist until now:
 
 - [x] [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 - [x] [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html)
+- [x] [Kube CTL](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
 * Automation
 
