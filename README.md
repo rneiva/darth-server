@@ -21,13 +21,16 @@ This project contains a lot of packages that it is necessary to use when we're g
 
 List of packages that exist until now:
 
-* ZSH
+*ZSH
+
 [x] [OH-MY-ZSH](https://ohmyz.sh/#install)
 
-* Package Manager
+*Package Manager
+
 [x] [Brew](https://brew.sh/)
 
-* DEV
+*DEV
+
 [x] [Ruby](https://www.ruby-lang.org/pt/documentation/installation/)
 [x] [Python](https://python.org.br/)
 [x] [NodeJS](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
@@ -37,7 +40,7 @@ List of packages that exist until now:
 [x] [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 [x] [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html)
 
-* Automation
+*Automation
 
 [x] [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
 
