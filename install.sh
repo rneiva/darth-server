@@ -21,7 +21,7 @@ echo "
 ###########
 
 sudo apt install -y update ;
-PACKAGES=curl vim zsh gcc build-essential gnupg;
+PACKAGES=curl vim zsh gcc build-essential gnupg apt-transport-https ca-certificates;
 sudo apt install -y ${PACKAGES}
 
 sudo apt clean all
@@ -79,6 +79,11 @@ sudo ./aws/install
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 sudo apt-get update -y && sudo apt-get install -y terraform
+
+#KubeCTL
+sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update -y && sudo apt-get install -y kubectl
 
 echo "[$(date +'%D %T')] Waiting ${wait_time} seconds for next execution"
 sleep ${wait_time}
