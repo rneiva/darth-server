@@ -14,17 +14,16 @@ This project contains a lot of packages that it is necessary to use when we're g
 
 ## Environment
 
-<p align="center">
 | NAME          | S.O            | TYPE       |
 | ------------------ |:----------------------:| -------------:|
 | darth-server  | Ubuntu 20.4    | t2.micro   |
-</p>
 
 ## Packages
 
 List of packages that exist until now:
 
 - ZSH
+
 [x] [OH-MY-ZSH](https://ohmyz.sh/#install)
 
 - Package Manager
